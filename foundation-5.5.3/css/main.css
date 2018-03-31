@@ -1,0 +1,321 @@
+/*all*/
+
+body , h1 , h2 , h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.anchor{
+  display: block;
+  height: 15rem; /*same height as header*/
+  margin-top: -15rem; /*same height as header*/
+  visibility: hidden;
+}
+
+/*header*/
+
+header{
+	background-color: white;
+}
+
+#logo-section{
+	transition: 1s;
+	background-color:white;	
+	overflow: auto;
+	height: 6rem;
+	line-height: 6rem;
+}
+
+#book-btn{
+	font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    padding-right: 5rem;
+}
+
+#logo-container{
+	transition: 1s;
+	text-align: center;
+	text-align: left;
+	/*background-color: blue;*/
+
+}
+#logo-container img{
+	width: 18rem;
+}
+
+#book-btn a{
+	color: #4b3312;
+	font-weight: 700;
+}
+
+#book-btn a:hover{
+	color: #e49627;
+	transition: 0.3s;
+}
+
+#bookMenu{
+	display: none ;
+}
+
+.logo{
+	width: 20rem;
+	height: 5rem;
+}
+
+.top-bar{
+	background-color: #d7a968;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	background-color: #d7a968;
+	padding-left:2rem;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+	background-color: #d7a968;
+	color: #4b3312;
+	transition: 0.3s;
+}
+
+.top-bar .toggle-topbar.menu-icon{
+	right: 45%;
+}
+
+.top-bar.expanded .title-area{
+	background-color: #d7a968;
+}
+
+/*splash*/
+
+.splash{
+	background-color: white;
+	position: relative;
+}
+
+.orbit-container .orbit-slides-container > * .orbit-caption {
+	position: absolute;
+	top: 40%;
+	/*left:15%;*/
+	/*padding-right:30rem;*/
+	font-size: 3rem;
+	font-weight: 400;
+	/*margin-bottom: 18.4rem;*/
+	background-color: rgba(51, 51, 51, 0);
+	text-shadow: 0.2rem 0.1rem 0.3rem #000000;
+	/*overflow: auto;*/
+}
+
+.orbit-container .orbit-slides-container img {
+	height: 40rem ;
+	width: 100% ;
+}
+
+/*booking*/
+
+.booking{
+	/*background-color: rgb(215, 169, 104 , 0.3);*/
+	padding: 2rem 0 2rem 1rem ;
+}
+
+#searchBtn{
+	padding-top: 0.7rem;
+}
+
+button, .button{
+	background-color:rgb(215, 169, 104);
+	color :#4b3312;
+	width: 15rem;
+	font-weight: 900;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+	background-color: rgb(215, 169, 104 , 0.3);
+	color: #4b3312;
+}
+
+#rowBook2{
+	padding-top: 1rem;
+}
+
+.lead{
+	color: #4b3312;
+}
+
+/* About Us*/
+
+.headingContent {
+	padding-top: 5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+.pContent{
+	padding-top: 3rem;
+	text-align: justify;
+	font-size: 1.1rem;
+}
+
+#row-content1 , #row-content2 , #row-content3 {
+	padding: 2rem 0 ;
+	background-color: rgb(215, 169, 104 , 0.3);
+	padding-right: 1rem;
+	padding-left: 1rem;
+
+}
+
+#row-content2 {
+	background-color: white;
+} 
+
+/*rooms*/
+#modalFamily , #modalStandard , #rowBook1 , #rowBook2{
+	color: #4b3312;
+}
+
+.rooms{
+ 	background-image: url('../img/retina_wood.png');
+ 	padding: 2rem;
+ 	margin-top: 2rem;
+}
+
+.pic-desc{
+	text-align: center;
+	padding-top: 3rem;
+	font-size: 2rem;
+}
+
+#rooms-heading p{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+/*#pict2-container{
+	
+}*/
+#pict1-container , #pict2-container{
+	text-align: center;
+}
+#pict1-container img{
+	transition: all .3s ease-in-out;
+	height: 20.84rem;
+	width: 80%;
+}
+
+#pict2-container img{
+	transition: all .3s ease-in-out;
+	width: 80%;
+	height: 20.84rem;
+}
+
+#pict2-container img:hover , #pict1-container img:hover{
+	transform: scale(1.1);
+}
+
+
+/*footer*/
+#footer{
+	padding-top: 2rem;
+	background-color: rgb(215, 169, 104 , 0.3) ;
+	overflow-x: auto;
+}
+footer h3 , footer p{
+	color: black;
+}
+
+
+#footer-left{
+	padding-right: 1rem;
+
+}
+
+/*#footer-right{
+	
+}
+*/
+#footer-contact{
+	padding-top: 5rem;
+	text-align: justify;
+}
+
+#footer-email{
+	padding-top: 5rem;
+}
+
+button.expand, .button.expand{
+	width: 29.5rem;
+}
+
+#socMed img{
+		width: 3rem;
+		margin-right: 2rem;
+	}
+
+/*responsive*/
+@media only screen and (max-width: 1000px) {
+	/*header*/
+
+	#book-btn{
+		transition: 1s;
+		display: none;
+	}
+
+	#logo-container {
+		transition: 1s;
+		width: 100%;
+		
+	}
+
+	#logo-container img{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	
+	#bookMenu{
+		display: block;
+	}
+
+	/*footer*/
+
+	#footer-contact , #footer-left{
+		text-align: center;
+	}
+
+	.top-bar-section li:not(.has-form) a:not(.button){
+		padding-left: 5rem;
+	}
+
+	
+
+}
+
+@media only screen and (max-width: 1150px){
+
+	.top-bar-section li:not(.has-form) a:not(.button){
+		padding-left: 6rem;
+	}
+
+}
+
+@media only screen and (max-width: 1100px){
+
+	.top-bar-section li:not(.has-form) a:not(.button){
+		padding-left: 6rem;
+	}
+
+
+}
+
+@media only screen and (max-width: 900px){
+	.top-bar-section li:not(.has-form) a:not(.button){
+		padding-left: 3.5rem;
+	}
+}
+
+@media only screen and (max-width: 850px){
+	.top-bar-section li:not(.has-form) a:not(.button){
+		padding-left: 3rem;
+	}
+}
