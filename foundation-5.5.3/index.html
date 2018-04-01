@@ -125,7 +125,7 @@
                 <li>shower  <i class="fa fa-shower"></i></li>
               </ul>
               <h3>Price : $100/night </h3>
-              <a href="#" class="button">Book Now</a>
+              <a href="#" data-reveal-id="secondModal" class="button">Book Now</a>
             </div>
           </div> 
           <div class="row" id="rowBook2">
@@ -142,9 +142,17 @@
                 <li>Living room  <i class="material-icons">&#xe16b;</i></li>
               </ul>
               <h3>Price : $150/night </h3>
-              <a href="#" class="button">Book Now</a>
+              <a href="#" data-reveal-id="secondModal" class="button">Book Now</a>
             </div>
           </div>
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+      </div>
+
+      <div id="secondModal" class="reveal-modal" data-reveal aria-labelledby="secondModalTitle" aria-hidden="true" role="dialog">
+        <h2 id="secondModalTitle">Booking is Complete</h2>
+        <p>Success , You Are All Set </p>
+        <p>Reservation number : <b>11234</b> </p>
+        <h2>We Are Looking Forward to Meeting you !</h2>
         <a class="close-reveal-modal" aria-label="Close">&#215;</a>
       </div>
     </section>
@@ -273,16 +281,25 @@
             </div>            
           </div>
           <div class="row">
-            <a href="#" class="button">Subscribe</a>
+            <a href="#" class="button" data-reveal-id="modalFooter">Subscribe</a>
           </div>
           <div class="row" id="socMed">
-            <img src="img/if_socialmedia_facebook_2919517.png" alt="">
-            <img src="img/if_socialmedia_instagram_2919510.png" alt="">
-            <img src="img/if_socialmedia_twitter_2919498.png" alt="">
+            <img src="img/if_socialmedia_facebook_2919517.png" alt="www.iconfinder.com">
+            <img src="img/if_socialmedia_instagram_2919510.png" alt="www.iconfinder.com">
+            <img src="img/if_socialmedia_twitter_2919498.png" alt="www.iconfinder.com">
           </div>
         </div>
         </center>
-      </div>   
+      </div> 
+
+      <div id="modalFooter" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+        <center>
+          <h2 id="modalTitle">Thank You for Subscribing</h2>
+          <img src="img/thecityhive-01.png" class="logo">
+        </center>
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+      </div>  
+
     </footer>
  <!--.................................................................................................. -->   
 
