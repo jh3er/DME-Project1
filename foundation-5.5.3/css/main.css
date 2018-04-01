@@ -199,14 +199,14 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 #pict1-container img{
 	transition: all .3s ease-in-out;
-	height: 20.84rem;
+	height: 60%;
 	width: 80%;
 }
 
 #pict2-container img{
 	transition: all .3s ease-in-out;
 	width: 80%;
-	height: 20.84rem;
+	height: 60%;
 }
 
 #pict2-container img:hover , #pict1-container img:hover{
