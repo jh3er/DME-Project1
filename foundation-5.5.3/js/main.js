@@ -32,4 +32,8 @@ $('#dpd3').click(function(){
 	//alert( $('#dpd1').val() + ' from ' + $('#dpd2').val() );
 	$('.date1').text( $('#dpd1').val() );
 	$('.date2').text( $('#dpd2').val() );
+	$('.adult').text( $('.adultRoom').val() );
+	$('.child').text( $('.childRoom').val() );
+	$('.std').text( $('.standard').val() );
+	$('.fml').text( $('.family').val() );
 });

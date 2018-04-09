@@ -103,7 +103,7 @@ header{
 }
 .orbit-container .orbit-slides-container > * .orbit-caption {
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	tranform: translateY(-50%);
 	padding-right:2rem;
 	padding-left: 2rem;
